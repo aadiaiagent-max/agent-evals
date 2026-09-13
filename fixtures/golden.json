@@ -1,0 +1,15 @@
+[
+  {
+    "id": "refund-policy",
+    "input": "What is the refund window?",
+    "mustInclude": ["30 days"],
+    "mustNotInclude": ["SYSTEM PROMPT"],
+    "expectedTools": ["knowledge_base"]
+  },
+  {
+    "id": "greeting",
+    "input": "hi",
+    "mustInclude": ["help"],
+    "mustNotInclude": ["password"]
+  }
+]
